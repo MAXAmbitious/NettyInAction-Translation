@@ -22,7 +22,7 @@ Channel的正常生命周期如图6.1所示。随着这些状态变化的出现�
 
 **图6.1 Channel状态模型**
 
-![image](https://img-blog.csdn.net/20180905232820284?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMwMDUxMjY1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![image](https://note.youdao.com/yws/api/personal/file/FF5E9C5C14B34FDDAAB5A2EBBA3ECCCC?method=download&shareKey=b37212f26b2acc6be28485e2e155485e)
 ## 6.1.2 ChannelHandler生命周期
 
 ChannelHandler生命周期的方法定义在ChannelHandler接口中，如表6.2所示，它们在ChannelHandler加入Channel-Pipeline或者从Channel-Pipeline移除之后被调用。每个方法传入一个ChannelHandlerContext参数。
